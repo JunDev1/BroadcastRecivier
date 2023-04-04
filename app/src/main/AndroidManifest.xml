@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BroadcastRecivier"
         tools:targetApi="31">
+        <service android:name=".MyService"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
